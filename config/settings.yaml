@@ -1,0 +1,34 @@
+openmeteo:
+  weather_url: "https://api.open-meteo.com/v1/forecast"
+  latitude: 12.9716
+  longitude: 77.5946
+  hourly:
+    - "temperature_2m"
+    - "relative_humidity_2m"
+    - "precipitation"
+  timezone: "Asia/Kolkata"
+
+air_quality:
+  url: "https://air-quality-api.open-meteo.com/v1/air-quality"
+  latitude: 12.9716
+  longitude: 77.5946
+  hourly:
+    - "pm10"
+    - "pm2_5"
+    - "carbon_monoxide"
+    - "nitrogen_dioxide"
+    - "sulphur_dioxide"
+    - "ozone"
+    - "uv_index"
+
+traffic:
+  source_url: "https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/10/json"
+  api_key: "KXaLZ2m3zAOFBCX5vOEMMkSlLALhthOr"
+  latitude: 12.9716
+  longitude: 77.5946
+
+paths:
+  raw_weather: "data_raw/weather/"
+  raw_air_quality: "data_raw/air_quality/"
+  raw_traffic: "data_raw/traffic/"
+  processed_dataset: "data_processed/final_dataset.csv"

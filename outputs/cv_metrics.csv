@@ -1,0 +1,6 @@
+fold,train_start,train_end,test_start,test_end,n_train,n_test,mae,rmse,r2,nr2,best_params
+1,0,30,31,57,31,27,1.1401388888888864,1.4202383268636933,0.5089467741268958,0.29924809962933085,"{'rf__n_estimators': 400, 'rf__min_samples_split': 2, 'rf__min_samples_leaf': 1, 'rf__max_depth': None}"
+2,0,57,58,84,58,27,13.540773274153832,14.878914990423485,-5.505522023012512,-1.5505924847008612,"{'rf__n_estimators': 100, 'rf__min_samples_split': 2, 'rf__min_samples_leaf': 4, 'rf__max_depth': 10}"
+3,0,84,85,111,85,27,4.137628245661237,5.125249806504307,0.02223104089661898,0.011177994225765042,"{'rf__n_estimators': 400, 'rf__min_samples_split': 5, 'rf__min_samples_leaf': 4, 'rf__max_depth': 20}"
+4,0,111,112,138,112,27,1.2104487787932217,1.383080916819349,0.02066558451864331,0.010386734384912888,"{'rf__n_estimators': 100, 'rf__min_samples_split': 5, 'rf__min_samples_leaf': 1, 'rf__max_depth': 10}"
+5,0,138,139,165,139,27,0.08067144951506183,0.169009860234513,-5.657749014163751e+26,-23786023236689.387,"{'rf__n_estimators': 200, 'rf__min_samples_split': 2, 'rf__min_samples_leaf': 2, 'rf__max_depth': 6}"

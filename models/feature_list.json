@@ -1,0 +1,25 @@
+{
+  "features": [
+    "pm25",
+    "pm25_lag1",
+    "pm25_lag2",
+    "pm25_lag3",
+    "pm25_roll3_mean",
+    "pm25_roll6_mean",
+    "temperature",
+    "temperature_lag1",
+    "temperature_lag2",
+    "humidity",
+    "humidity_lag1",
+    "humidity_lag2",
+    "precipitation",
+    "precipitation_lag1",
+    "traffic_speed",
+    "traffic_speed_lag1",
+    "free_flow_speed",
+    "congestion_index",
+    "hour",
+    "dayofweek",
+    "is_weekend"
+  ]
+}
